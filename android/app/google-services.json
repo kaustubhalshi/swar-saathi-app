@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "392450884704",
+    "project_id": "my-music-app-462007",
+    "storage_bucket": "my-music-app-462007.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392450884704:android:ec2011bda2eadf216c2f05",
+        "android_client_info": {
+          "package_name": "com.swarsaathi.swar_music_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392450884704-kktjk47akfu8ur5luilmrl3hc1sd78vj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swarsaathi.swar_music_app",
+            "certificate_hash": "d1d44d44fb12f3e8ddaf061d4f0d47f53c1eb507"
+          }
+        },
+        {
+          "client_id": "392450884704-jhavjuk2lat14ks4bcujkdr29utn2c0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmTulvLfxj04YgtvNsn0rQKw_Fxr_4YfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392450884704-jhavjuk2lat14ks4bcujkdr29utn2c0a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "392450884704-9ldolbf9q15k21vtm4fdqo25fpbmreff.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.swarSathi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
