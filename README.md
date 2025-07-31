@@ -52,14 +52,31 @@ Swar Saathi is a **music learning app** designed for aspiring Indian classical m
 
 ## 📸 Screenshots
 
-| Home Screen | Lesson Screen | Audio Player Screen | Progress Screen |
-|-------------|-------------|----------------|----------------|
-| <img width="1920" height="1080" alt="Untitled design" src="https://github.com/user-attachments/assets/51180515-a4af-4bc7-a794-923e3a3159ad" /> |
+<table>
+  <thead>
+    <tr>
+      <th>Home Screen</th>
+      <th>Lesson Screen</th>
+      <th>Audio Player Screen</th>
+      <th>Progress Screen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4" align="center">
+        <img width="800" alt="All Screens" src="https://github.com/user-attachments/assets/51180515-a4af-4bc7-a794-923e3a3159ad" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-| Home Screen | Lesson Page | Practice Mode |
-|-------------|-------------|----------------|
-| <img width="1920" height="1080" alt="Practice screen anim" src="https://github.com/user-attachments/assets/85982999-43fa-4163-b0ca-9bb13ae43d3d" /> |
+<br/>
 
+### 🎤 Practice Mode
+
+<p align="center">
+  <img width="800" alt="Practice screen animation" src="https://github.com/user-attachments/assets/85982999-43fa-4163-b0ca-9bb13ae43d3d" />
+</p>
 ---
 
 ## ⚙️ Key Challenge & Solution
