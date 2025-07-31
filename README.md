@@ -1,16 +1,86 @@
-# swar_music_app
+# 🎵 Swar Saathi – Your Personal Indian Classical Music Learning Companion
 
-A new Flutter project.
+Swar Saathi is a **music learning app** designed for aspiring Indian classical music enthusiasts. Whether you are a beginner or an intermediate learner, Swar Saathi offers **structured lessons**, **real-time practice tools**, and **daily progress tracking** to help you grow at your own pace.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Daily Progress Tracking** – Keep tabs on your learning journey and set personal goals.
+- **Structured Lessons** – Lessons designed from **basic alankars to advanced ragas** and studio-recorded music lessons.
+- **Audio Player Integration** – Playback with embedded instrumental tracks.
+- **Practice Mode** – Real-time **pitch detection** with microphone input.
+- **Performance Scoring** – Receive feedback on **accuracy and notes hit** during practice.
+- **In-built Tanpura and Metronome** – Essential tools for your riyaz.
+- **Daily Practice Reminders** – Stay consistent with personalized reminders.
+- **Profile Management** – Manage learning stats, progress, and personal settings.
+- **Premium Subscription** – Unlock **unlimited access** to exclusive content via **Google Play Billing**.
+- **Weekly Content Updates** – New lessons, skill builders, and practice material added regularly.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📚 Music Curriculum
+
+- **Alankars** – Basic to complex patterns.
+- **Ragas** – Step-by-step lessons with vocal demonstrations.
+- **Skill Builders** – Pitch control, breath management, note precision.
+- **Studio Lessons** – Professionally recorded guidance by experts.
+
+---
+
+## 🧑‍💻 Tech Stack
+
+| Layer               | Technology Used                    |
+|--------------------|------------------------------------|
+| Frontend           | Flutter (Android & iOS)            |
+| Authentication     | Firebase Auth                      |
+| Backend Database   | Firebase Firestore                 |
+| File Storage       | Firebase Storage                   |
+| Cloud Services     | Google Cloud Platform (GCP)        |
+| Subscription Model | Google Play Billing                |
+| Audio Processing   | Native Microphone & Pitch Detection|
+| UI Enhancements    | Game Engine (for smooth transitions)|
+
+---
+
+## 🚀 Deployment Status
+
+- ✅ Currently **Live on Google Play Store** (Closed Testing)
+- 📩 **To get access join our testing team** Contact `infinity.kaustubh@gmail.com` to become a beta tester.
+
+---
+
+## 📸 Screenshots
+
+| Home Screen | Lesson Screen | Audio Player Screen | Progress Screen |
+|-------------|-------------|----------------|----------------|
+| <img width="1920" height="1080" alt="Untitled design" src="https://github.com/user-attachments/assets/51180515-a4af-4bc7-a794-923e3a3159ad" /> |
+
+| Home Screen | Lesson Page | Practice Mode |
+|-------------|-------------|----------------|
+| <img width="1920" height="1080" alt="Practice screen anim" src="https://github.com/user-attachments/assets/85982999-43fa-4163-b0ca-9bb13ae43d3d" /> |
+
+---
+
+## ⚙️ Key Challenge & Solution
+
+### Challenge: Real-Time Practice Mode with Live Pitch Detection
+- Building a **practice screen** where users can **sing along** with instrumental tracks and get **live pitch feedback**.
+- Required **microphone streaming**, **real-time pitch tracking**, and **server-side validation** for accuracy.
+- Smooth UI was crucial – addressed this by using a **game engine** to render **musical note transitions** fluidly during practice.
+
+---
+
+## 🧪 Upcoming Improvements
+
+- Personalized learning paths based on user's performance.
+- Advanced analytics for vocal pitch training.
+- Web version in future roadmap.
+
+---
+
+## 📬 Contact
+
+For access to the beta testing program or collaboration inquiries, please email: **infinity.kaustubh@gmail.com**
+
+
