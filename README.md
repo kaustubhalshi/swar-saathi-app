@@ -14,6 +14,8 @@ Swar Saathi aims to bridge this gap by providing:
 
 - Studio-recorded lessons and skill-building exercises
 
+- Weekly adding new learning lessons
+
 - A minimal monthly subscription, making it affordable and accessible for all learners
 
 ---
