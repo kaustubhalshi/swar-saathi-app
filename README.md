@@ -4,6 +4,20 @@ Swar Saathi is a **music learning app** designed for aspiring Indian classical m
 
 ---
 
+## Problem Statement
+
+Despite the growing interest in learning Indian classical music, there are very few quality apps available on the Play Store and App Store that offer structured lessons, interactive practice tools, and consistent progress tracking. The apps that do exist often come with high subscription fees, making them inaccessible to many learners.
+
+Swar Saathi aims to bridge this gap by providing:
+
+- High-quality, structured content from basics to advanced levels
+
+- Studio-recorded lessons and skill-building exercises
+
+- A minimal monthly subscription, making it affordable and accessible for all learners
+
+---
+
 ## 📸 Screenshots
 
 <table>
