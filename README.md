@@ -105,7 +105,7 @@ Swar Saathi aims to bridge this gap by providing:
 
 ## 🧪 Upcoming Improvements
 
-- Personalized learning paths based on user's performance.
+- Personalized AI assist on user's performance.
 - Advanced analytics for vocal pitch training.
 - Web version in future roadmap.
 
