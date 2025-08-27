@@ -24,7 +24,7 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
   bool _isLoading = false;
   Offerings? _offerings;
   Map<String, dynamic>? _subscriptionInfo;
-  Package? _monthlyPackage; // ⭐ NEW: Cache the monthly package
+  Package? _monthlyPackage; 
 
   @override
   void initState() {
@@ -51,13 +51,12 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
         final offerings = await _revenueCatService.getOfferings();
         final subscriptionInfo = await _revenueCatService.getSubscriptionInfo(user.uid);
 
-        // ⭐ NEW: Get monthly package dynamically
         final monthlyPackage = await _revenueCatService.getMonthlyPackage();
 
         setState(() {
           _offerings = offerings;
           _subscriptionInfo = subscriptionInfo;
-          _monthlyPackage = monthlyPackage; // ⭐ Cache the package
+          _monthlyPackage = monthlyPackage;
         });
       }
 
@@ -314,9 +313,7 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
     );
   }
 
-  // ⭐ UPDATED: Dynamic subscription plan builder
   Widget _buildSubscriptionPlan() {
-    // ⭐ NEW: Use cached monthly package instead of hardcoded access
     if (_monthlyPackage == null) {
       return Container(
         padding: EdgeInsets.all(20),
@@ -407,7 +404,6 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
             ),
           ),
           SizedBox(height: 8),
-          // ⭐ NEW: Show dynamic product info for debugging
           if (package.storeProduct.description.isNotEmpty) ...[
             Text(
               package.storeProduct.description,
@@ -458,7 +454,6 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
               color: Colors.grey[500],
             ),
           ),
-          // ⭐ NEW: Debug info (remove in production)
           if (package.storeProduct.identifier.isNotEmpty) ...[
             SizedBox(height: 8),
             Text(
@@ -724,7 +719,6 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
     );
   }
 
-  // ⭐ UPDATED: Purchase subscription using dynamic service
   Future<void> _purchaseSubscription() async {
     setState(() => _isLoading = true);
 
